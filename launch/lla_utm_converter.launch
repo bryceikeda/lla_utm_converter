@@ -1,0 +1,10 @@
+<launch>
+	<!-- Zone https://mangomap.com/robertyoung/maps/69585/what-utm-zone-am-i-in-# -->
+	<param name="zone" value="17"/>
+	<param name="is_north_hemisphere" value="true"/>
+	<param name="origin_x" value="0.0"/>
+	<param name="origin_y" value="0.0"/>
+	<param name="origin_z" value="0.0"/>
+
+	<node name="lla_utm_converter_node" pkg="lla_utm_converter" type="lla_utm_converter_node" output="screen"/>
+</launch>
